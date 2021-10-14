@@ -29,6 +29,7 @@ a {
   color: #333;
 }
 
+
 h1,
 h2 {
   font-weight: 300;
@@ -39,9 +40,12 @@ h2 {
 p {
   margin: 10px 0;
 }
-
 img {
   width: 100%;
+}
+.logo{
+  width: 70px;
+  height: 70px;
 }
 
 code,
@@ -68,7 +72,10 @@ pre {
 }
 
 .navbar a:hover {
-  border-bottom: 2px #fff solid;
+  border-bottom: 2px rgba(3, 3, 3, 0.897) solid;
+  color:#333;
+  font-size: 18px;
+  font-weight: 600;
 }
 /*showcase*/
 .showcase {

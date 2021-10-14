@@ -9,6 +9,12 @@
   justify-content: space-between;
 }
 
+.container-2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .card {
   background-color: #fff;
   color: #333;
@@ -35,6 +41,9 @@
 
 .btn:hover {
   transform: scale(0.87);
+  color: #333;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 /*background & clored buttons*/
