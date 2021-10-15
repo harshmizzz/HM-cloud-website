@@ -107,7 +107,6 @@ pre {
   position: relative;
   top: 60px;
   height: 350px;
-  width: 400px;
   padding: 40px;
   z-index: 100;
   animation: slideInFromRight 1s ease-in;
@@ -297,6 +296,9 @@ pre {
   .navbar ul {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.1);
+  }
+  .showcase-form{
+    width: 90vw;
   }
 }
 
